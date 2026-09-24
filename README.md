@@ -8,7 +8,7 @@ Credit Card Weekly Status Report
   i. Prepared csv file 
   ii. Created tables in SQL
   iii. imported csv file into SQL
-3. Data processing & DAX
+3. Data processing & DAX.
   DAX Queries
   week_num2 = WEEKNUM('public cc_detail'[week_start_date])
   Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
